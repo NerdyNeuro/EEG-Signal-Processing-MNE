@@ -1,9 +1,5 @@
 # EEG-Signal-Processing-MNE
-An automated end-to-end EEG processing pipeline built with MNE-Python. Features data loading/concatenation, 10-20 montage standardization, bandpass filtering, FastICA physiological artifact subtraction, time-locked epoching, and frequency-domain feature extraction (PSD).
-# Automated EEG Signal Processing Pipeline
-
-An automated, end-to-end EEG preprocessing and feature extraction pipeline developed using **MNE-Python**. This tool streamlines the workflow from raw data ingestion to analysis-ready frequency features, specifically engineered to handle variations in channel nomenclature and remove artifacts.
-
+An automated end-to-end EEG processing pipeline built with MNE-Python. Features data loading/concatenation, 10-20 montage standardization, bandpass filtering, FastICA physiological artifact subtraction, time-locked epoching, and frequency-domain feature extraction (PSD). 
 ## 🚀 Key Features
 
 * **Data Ingestion & Concatenation:** Seamless loading and merging of multiple contiguous European Data Format (`.edf`) files.
