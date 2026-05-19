@@ -18,6 +18,12 @@ The pipeline enforces a logical, strict neuroscientific data workflow to preserv
 5. **ICA Decomposition** & Artifact Removal ➡️ 
 6. **Feature Extraction** (Power Spectral Density)
 
+## 📊 Dataset
+The data used in this project comes from the [PhysioNet EEG Motor Movement/Imagery Dataset]. 
+To run this notebook locally:
+1. Download files `S001R07.edf` and `S001R11.edf`.
+2. Place them in your local working directory before executing the pipeline.
+   
 ## 📦 Prerequisites
 
 Ensure you have Python installed alongside the dependencies listed in `requirements.txt`:
